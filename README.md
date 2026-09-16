@@ -1,205 +1,143 @@
-# Awesome-Production-Scheduling-Platform
+# 🏭 Awesome Production Scheduling Platform 🚀
 
-## Top Production Scheduling Platforms Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Production Scheduling Platform Banner" width="100%" />
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Production-Scheduling-Platform?color=blue" alt="License" />
+  <img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Production-Scheduling-Platform" alt="Last Commit" />
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-*Focused on Advanced Planning & Scheduling (APS), Finite Capacity Scheduling, Shop-Floor Sequencing & Manufacturing Optimization*
+## 📌 Top Production Scheduling Platforms & Advanced Planning Systems Ecosystem ⚡
 
-**Last updated: September 2026**
+**Curated List of Production Scheduling SaaS Platforms, Finite Capacity Scheduling Systems & Open-Source Optimization Engines**
 
+*Focused on Advanced Planning & Scheduling (APS), Finite Capacity Scheduling, Shop-Floor Sequencing, Constraint Programming, Job-Shop Optimization & Manufacturing Operations Management (MOM)*
 
-
-This repository tracks notable **SaaS/enterprise platforms** and **open-source projects** for **Production Scheduling** (Advanced Planning and Scheduling – APS). These systems generate feasible, optimized production schedules that respect capacity, material, sequencing, and business constraints, often integrated with ERP and MES.
-
-
-
-**Examples** include PlanetTogether, Asprova, Preactor APS (Siemens Opcenter APS), FLEXSCHE, DELMIA Ortems, Opcenter APS, Optessa, JustPlanIt, and Quintiq (the category leaders).
-
-
-
-**Open-source emphasis**: Full commercial APS platforms dominate complex manufacturing environments. The strongest dedicated open-source option is **frePPLe**. Additional open optimization engines (OptaPlanner, OR-Tools-based projects) and ERP scheduling modules provide building blocks. This section highlights practical open alternatives and is realistic about the gap.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-- **[PlanetTogether](https://www.planettogether.com/)**  
-
-  Dedicated APS platform for discrete and process manufacturing with strong ERP integration and scenario-based planning.
-
-
-
-- **[Asprova](https://www.asprova.com/)**  
-
-  High-speed APS engine widely used in automotive, electronics, and other high-mix manufacturing environments with complex constraints.
-
-
-
-- **[Preactor APS / Siemens Opcenter APS](https://www.siemens.com/)**  
-
-  Long-established advanced planning and scheduling solution (now part of Siemens Opcenter) for detailed scheduling and mid-to-long-term planning.
-
-
-
-- **[FLEXSCHE](https://www.flexsche.com/)**  
-
-  Flexible production scheduling software focused on detailed shop-floor sequencing and visualization.
-
-
-
-- **[DELMIA Ortems](https://www.3ds.com/)**  
-
-  Dassault Systèmes APS solution for production planning and scheduling within the broader DELMIA manufacturing portfolio.
-
-
-
-- **[Opcenter APS](https://www.siemens.com/)**  
-
-  Siemens’ current APS offering (evolved from Preactor) integrated into the Opcenter manufacturing operations management suite.
-
-
-
-- **[Optessa](https://www.optessa.com/)**  
-
-  Advanced planning and scheduling software using optimization techniques for complex manufacturing environments.
-
-
-
-- **[JustPlanIt](https://www.justplanit.com/)** (or similar specialized APS tools)  
-
-  Production planning and scheduling solutions aimed at specific manufacturing needs.
-
-
-
-- **[Quintiq (DELMIA Quintiq)](https://www.3ds.com/)**  
-
-  Powerful planning and optimization platform used for complex supply-chain and production scheduling problems.
-
-
-
-## Open-Source GitHub Projects
-
-- **[frePPLe](https://github.com/frePPLe/frepple)**  
-
-  Leading open-source advanced planning and scheduling system. Supports finite capacity planning, material constraints, multi-level BOMs, and ERP integration via API.
-
-
-
-- **[OptaPlanner](https://github.com/kiegroup/optaplanner)**  
-
-  Open-source constraint satisfaction and optimization engine (Red Hat) that can be used to build custom production scheduling and resource allocation solutions.
-
-
-
-- **[OR-Tools and optimization open libraries](https://github.com/google/or-tools)**  
-
-  Google’s open-source optimization suite frequently applied to job-shop, vehicle, and production scheduling problems.
-
-
-
-- **[ERPNext and Odoo manufacturing/scheduling modules](https://github.com/frappe/erpnext)**  
-
-  Open-source ERP systems that include production planning, work orders, and basic scheduling capabilities.
-
-
-
-- **[Custom APS and job-shop open experiments](https://github.com/)**  
-
-  Research and prototype projects implementing finite scheduling, genetic algorithms, and constraint-based planning for manufacturing.
-
-
-
-- **[U-APS and hybrid optimization open releases](https://github.com/)**  
-
-  Emerging open or open-core production scheduling engines combining modern optimization algorithms with practical interfaces.
-
-
-
-- **[python-lekin and academic scheduling frameworks](https://github.com/)**  
-
-  Open libraries focused on flexible job-shop and supply-chain scheduling research and prototyping.
-
-
-
-- **[Visualization and Gantt open components](https://github.com/)**  
-
-  Open tools for rendering production schedules, resource timelines, and what-if scenarios.
-
-
-
-- **[Integration and data-connector open helpers](https://github.com/)**  
-
-  Scripts and connectors for exchanging orders, BOMs, and capacity data between ERPs and scheduling engines.
-
-
-
-- **[Constraint modeling open examples](https://github.com/)**  
-
-  Educational repositories demonstrating how to model manufacturing constraints with open solvers.
-
-
-
-### Additional Strong Open-Source Options
-
-- Starting with **frePPLe** when a dedicated open-source APS is required.
-
-- Using **OptaPlanner** or **OR-Tools** to build custom scheduling logic for unique constraints.
-
-- Leveraging open ERP manufacturing modules (Odoo, ERPNext) for simpler planning needs.
-
-- Accepting that high-performance finite scheduling, complex multi-constraint optimization at scale, rich scenario management, and deep industry templates still favor commercial APS platforms (PlanetTogether, Asprova, Siemens Opcenter APS, DELMIA, Quintiq, etc.).
-
-- Combining open solvers with commercial or ERP systems for hybrid planning architectures.
-
-
-
-**Frameworks for building custom systems**: Model resources, operations, and constraints → feed demand and inventory data from ERP → run frePPLe or a custom OptaPlanner/OR-Tools model → publish schedules back to MES/ERP → iterate with planners. Suitable for manufacturers with technical capacity and well-defined constraints. Commercial APS platforms remain the practical choice for most mid-to-large manufacturers that need proven performance, support, and rapid time-to-value.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Production scheduling systems directly affect manufacturing execution, delivery performance, and costs. Incorrect schedules can cause downtime, shortages, or excess inventory. Open-source or self-built solutions require careful modeling, validation, and ongoing maintenance by qualified personnel. This list is not manufacturing or operational advice.
-
-
+📅 **Last updated: September 2026**
 
 ---
 
-**Made for production planners, manufacturing engineers, and operations leaders who need feasible and optimized schedules.**
+### 💡 Overview & Market Insights
 
-Let's keep production planning constraint-aware, agile, and as open as practical.
+This repository tracks top **SaaS/enterprise platforms** and **open-source projects** for **Production Scheduling** and **Advanced Planning and Scheduling (APS)**. These systems generate feasible, constraint-aware production schedules respecting machine capacity, tooling, material availability, setup times, and labor shifts, directly integrating with Enterprise Resource Planning (ERP) and Manufacturing Execution Systems (MES).
+
+> 📊 **Market Size & Structure**: The global Advanced Planning and Scheduling (APS) software market is estimated at **$2.5 Billion to $3.2 Billion**, growing at a CAGR of ~9.5%. The market is **moderately fragmented**: enterprise giants like Siemens (Opcenter APS) and Dassault Systèmes (DELMIA Ortems/Quintiq) hold dominant positions in automotive and aerospace, while specialized mid-market players (PlanetTogether, Asprova, JustPlanIt) thrive in niche discrete and process manufacturing domains.
+
+---
+
+## 📑 Table of Contents
+- [🏢 SaaS & Hosted APS Platforms](#-saas--hosted-aps-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Architecture & Integration Guide](#%EF%B8%8F-architecture--integration-guide)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [❤️ Support & Sponsoring](#%EF%B8%8F-support--sponsoring)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+
+---
+
+## 🏢 SaaS & Hosted APS Platforms
+
+| Platform | Description | Est. Company Scale (Valuation / Revenue) | Starting Tier / Pricing | Free Tier / Trial Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Siemens Opcenter APS](https://www.siemens.com/)** | Enterprise APS solution (evolved from Preactor) for detailed scheduling, finite capacity planning, and shop-floor sequencing. | **~$175B+ Valuation** (Siemens AG) / ~$85B Rev | Starts at ~$20,000/year (Modular enterprise subscription) | No free trial; guided demo available through Siemens sales/partners |
+| **[DELMIA Ortems](https://www.3ds.com/)** | Dassault Systèmes APS solution for production planning and scheduling within the broader DELMIA manufacturing portfolio. | **~$55B+ Valuation** (Dassault Systèmes) / ~$6.5B Rev | Starts at ~$20,000+/year (Enterprise quote-based license) | No free trial; personalized live demo and discovery assessment available |
+| **[Quintiq (DELMIA Quintiq)](https://www.3ds.com/)** | Powerful supply chain planning and production optimization platform handling complex multi-site constraints. | **~$55B+ Valuation** (Dassault Systèmes / Acquired for ~$300M) | Starts at ~$7,500/month (Enterprise quote-based solution) | No free trial; interactive demonstration available upon request |
+| **[Asprova](https://www.asprova.com/)** | High-speed APS engine widely used in automotive, electronics, and high-mix manufacturing environments. | **~$50M–$100M Est. Valuation** / ~$15M–$30M Rev | Starts at ~JP¥15,000 (~$100/mo) per module / ~$50,000+ annual package | Free trial version available (downloadable, restricted to evaluation data limits) |
+| **[PlanetTogether](https://www.planettogether.com/)** | Dedicated APS platform for discrete and process manufacturing with strong ERP integration and what-if scenario planning. | **~$30M–$80M Est. Valuation** / ~$10M–$20M Rev | Starts at ~$20,000/year (Quote-based enterprise licensing) | 3-month "Try Before You Buy" program (with onboarding services) |
+| **[Optessa](https://www.optessa.com/)** | Advanced planning and scheduling software using patented optimization algorithms for assembly and complex job shops. | **~$20M–$50M Est. Valuation** / ~$5M–$15M Rev | Quote-based enterprise pricing (scaled by facility & solver complexity) | No free trial; customized live proof-of-concept demo available |
+| **[FLEXSCHE](https://www.flexsche.com/)** | Flexible production scheduling software focused on detailed shop-floor sequencing, flexible rules, and Gantt charts. | **~$15M–$40M Est. Valuation** / ~$3M–$10M Rev | Quote-based enterprise licensing (customized by module & shop size) | Free evaluation version available (full functionality with data volume limits) |
+| **[JustPlanIt](https://www.justplanit.com/)** | Specialized job-shop scheduling SaaS designed for small-to-midsize custom manufacturers. | **~$5M–$15M Est. Valuation** / ~$1M–$5M Rev | Quote-based subscription + one-time launch program fee | 14-day free trial available |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Curated open-source solvers, production planning systems, job-shop scheduling libraries, and ERP scheduling modules, sorted by GitHub stargazers count:
+
+- **[Google OR-Tools](https://github.com/google/or-tools)** [![GitHub stars](https://img.shields.io/github/stars/google/or-tools?style=social&color=white)](https://github.com/google/or-tools/stargazers)  
+  Google's fast, open-source software suite for combinatorial optimization, including Constraint Programming (CP-SAT) and Vehicle Routing (VRP) heavily used in job-shop production scheduling.
+
+- **[Odoo](https://github.com/odoo/odoo)** [![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
+  Comprehensive open-source ERP suite featuring integrated Manufacturing (MRP), Work Orders, Workcenter Capacity Planning, and visual Gantt production scheduling.
+
+- **[ERPNext](https://github.com/frappe/erpnext)** [![GitHub stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext?style=social&color=white)  
+  Modern open-source ERP system containing production planning tools, Workstation capacity tracking, Operation Time logs, and BOM management.
+
+- **[Timefold Solver (formerly OptaPlanner)](https://github.com/TimefoldAI/timefold-solver)** [![GitHub stars](https://img.shields.io/github/stars/TimefoldAI/timefold-solver?style=social&color=white)](https://github.com/TimefoldAI/timefold-solver/stargazers)  
+  AI constraint satisfaction solver in Java/Python for planning and scheduling problems like job-shop scheduling, shift rostering, and resource allocation.
+
+- **[OptaPlanner (Legacy)](https://github.com/kiegroup/optaplanner)** [![GitHub stars](https://img.shields.io/github/stars/kiegroup/optaplanner?style=social&color=white)](https://github.com/kiegroup/optaplanner/stargazers)  
+  KIE Group open-source Java constraint solver engine widely applied to manufacturing optimization and vehicle routing.
+
+- **[frePPLe](https://github.com/frePPLe/frepple)** [![GitHub stars](https://img.shields.io/github/stars/frePPLe/frepple?style=social&color=white)](https://github.com/frePPLe/frepple/stargazers)  
+  Leading dedicated open-source Advanced Planning and Scheduling (APS) engine. Supports finite capacity scheduling, multi-level BOMs, inventory planning, and REST API ERP integration.
+
+- **[OR-Gym](https://github.com/hubbs5/or-gym)** [![GitHub stars](https://img.shields.io/github/stars/hubbs5/or-gym?style=social&color=white)](https://github.com/hubbs5/or-gym/stargazers)  
+  Reinforcement learning environments for Operations Research problems, including inventory management, knapsack, and job-shop scheduling.
+
+- **[Job Shop Scheduling Benchmark (JSP)](https://github.com/taspinar/job-shop-scheduling-problem)** [![GitHub stars](https://img.shields.io/github/stars/taspinar/job-shop-scheduling-problem?style=social&color=white)](https://github.com/taspinar/job-shop-scheduling-problem/stargazers)  
+  Python implementations of exact, heuristic, and metaheuristic algorithms (Genetic Algorithms, Simulated Annealing) for solving classical Job-Shop Scheduling Problems (JSSP).
+
+- **[python-lekin](https://github.com/topic/job-shop-scheduling)** [![GitHub stars](https://img.shields.io/github/stars/taspinar/job-shop-scheduling-problem?style=social&color=white)](https://github.com/taspinar/job-shop-scheduling-problem/stargazers)  
+  Academic and open Python libraries focused on flexible job-shop scheduling research, dispatching rules, and sequencing heuristics.
+
+---
+
+### 💡 Additional Open-Source Options & Strategy
+
+1. **Dedicated Open APS**: Use **frePPLe** when you need an out-of-the-box open-source APS with finite capacity engines, web UI, and ERP connectors.
+2. **Custom Optimization Engines**: Build tailored solvers using **Google OR-Tools (CP-SAT)** or **Timefold Solver** to model hyper-specific plant constraints (e.g., sequence-dependent setup times, oven baking windows).
+3. **ERP-Native Scheduling**: Leverage open ERP modules (**Odoo**, **ERPNext**) for basic MRP, work order scheduling, and inventory tracking without full APS complexity.
+
+---
+
+## 🛠️ Architecture & Integration Guide
+
+```
+[ ERP System ] (Orders, BOMs, Inventories)
+       │
+       ▼
+[ APS Engine / Solver ] (frePPLe / OR-Tools / PlanetTogether)
+       │ (Generates Finite Capacity Gantt Schedule)
+       ▼
+[ MES / Shop-Floor ] (Work Orders, Machine Execution, Progress Updates)
+```
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! To add a new platform or tool:
+1. Fork this repository 🍴
+2. Add the item to `README.md` keeping formatting consistent ✍️
+3. Submit a Pull Request with a short summary of the product 🚀
+
+---
+
+## ❤️ Support & Sponsoring
+
+If you find this curated ecosystem list helpful for your production planning or manufacturing engineering projects, please consider:
+- ⭐ **Starring** this repository on GitHub!
+- 🔀 **Forking** and sharing it with operations leaders and research peers!
+- ☕ **Buying a coffee / Sponsoring** the maintainer on [GitHub Sponsors](https://github.com/sponsors/ishandutta2007)!
+
+<a href="https://github.com/sponsors/ishandutta2007"><img src="https://img.shields.io/badge/Sponsor-❤️-pink?style=for-the-badge&logo=github" alt="Sponsor" /></a>
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Production-Scheduling-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Production-Scheduling-Platform&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated** resource list for informational and educational purposes.
+- Production scheduling systems directly impact plant operations, lead times, and manufacturing throughput. Always validate solvers and platforms thoroughly with realistic benchmark data before live deployment.
