@@ -60,31 +60,31 @@ This repository tracks top **SaaS/enterprise platforms** and **open-source proje
 
 Curated open-source solvers, production planning systems, job-shop scheduling libraries, and ERP scheduling modules, sorted by GitHub stargazers count:
 
-- **[Google OR-Tools](https://github.com/google/or-tools)** [![GitHub stars](https://img.shields.io/github/stars/google/or-tools?style=social&color=white)](https://github.com/google/or-tools/stargazers)  
+- **[Google OR-Tools](https://github.com/google/or-tools)** [![GitHub_Stars](https://img.shields.io/github/stars/google/or-tools?style=social&color=white)](https://github.com/google/or-tools/stargazers)  
   Google's fast, open-source software suite for combinatorial optimization, including Constraint Programming (CP-SAT) and Vehicle Routing (VRP) heavily used in job-shop production scheduling.
 
-- **[Odoo](https://github.com/odoo/odoo)** [![GitHub stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
+- **[Odoo](https://github.com/odoo/odoo)** [![GitHub_Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers)  
   Comprehensive open-source ERP suite featuring integrated Manufacturing (MRP), Work Orders, Workcenter Capacity Planning, and visual Gantt production scheduling.
 
-- **[ERPNext](https://github.com/frappe/erpnext)** [![GitHub stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext?style=social&color=white)  
+- **[ERPNext](https://github.com/frappe/erpnext)** [![GitHub_Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext?style=social&color=white)  
   Modern open-source ERP system containing production planning tools, Workstation capacity tracking, Operation Time logs, and BOM management.
 
-- **[Timefold Solver (formerly OptaPlanner)](https://github.com/TimefoldAI/timefold-solver)** [![GitHub stars](https://img.shields.io/github/stars/TimefoldAI/timefold-solver?style=social&color=white)](https://github.com/TimefoldAI/timefold-solver/stargazers)  
+- **[Timefold Solver (formerly OptaPlanner)](https://github.com/TimefoldAI/timefold-solver)** [![GitHub_Stars](https://img.shields.io/github/stars/TimefoldAI/timefold-solver?style=social&color=white)](https://github.com/TimefoldAI/timefold-solver/stargazers)  
   AI constraint satisfaction solver in Java/Python for planning and scheduling problems like job-shop scheduling, shift rostering, and resource allocation.
 
-- **[OptaPlanner (Legacy)](https://github.com/kiegroup/optaplanner)** [![GitHub stars](https://img.shields.io/github/stars/kiegroup/optaplanner?style=social&color=white)](https://github.com/kiegroup/optaplanner/stargazers)  
+- **[OptaPlanner (Legacy)](https://github.com/kiegroup/optaplanner)** [![GitHub_Stars](https://img.shields.io/github/stars/kiegroup/optaplanner?style=social&color=white)](https://github.com/kiegroup/optaplanner/stargazers)  
   KIE Group open-source Java constraint solver engine widely applied to manufacturing optimization and vehicle routing.
 
-- **[frePPLe](https://github.com/frePPLe/frepple)** [![GitHub stars](https://img.shields.io/github/stars/frePPLe/frepple?style=social&color=white)](https://github.com/frePPLe/frepple/stargazers)  
+- **[frePPLe](https://github.com/frePPLe/frepple)** [![GitHub_Stars](https://img.shields.io/github/stars/frePPLe/frepple?style=social&color=white)](https://github.com/frePPLe/frepple/stargazers)  
   Leading dedicated open-source Advanced Planning and Scheduling (APS) engine. Supports finite capacity scheduling, multi-level BOMs, inventory planning, and REST API ERP integration.
 
-- **[OR-Gym](https://github.com/hubbs5/or-gym)** [![GitHub stars](https://img.shields.io/github/stars/hubbs5/or-gym?style=social&color=white)](https://github.com/hubbs5/or-gym/stargazers)  
+- **[OR-Gym](https://github.com/hubbs5/or-gym)** [![GitHub_Stars](https://img.shields.io/github/stars/hubbs5/or-gym?style=social&color=white)](https://github.com/hubbs5/or-gym/stargazers)  
   Reinforcement learning environments for Operations Research problems, including inventory management, knapsack, and job-shop scheduling.
 
-- **[Job Shop Scheduling Benchmark (JSP)](https://github.com/taspinar/job-shop-scheduling-problem)** [![GitHub stars](https://img.shields.io/github/stars/taspinar/job-shop-scheduling-problem?style=social&color=white)](https://github.com/taspinar/job-shop-scheduling-problem/stargazers)  
+- **[Job Shop Scheduling Benchmark (JSP)](https://github.com/taspinar/job-shop-scheduling-problem)** [![GitHub_Stars](https://img.shields.io/github/stars/taspinar/job-shop-scheduling-problem?style=social&color=white)](https://github.com/taspinar/job-shop-scheduling-problem/stargazers)  
   Python implementations of exact, heuristic, and metaheuristic algorithms (Genetic Algorithms, Simulated Annealing) for solving classical Job-Shop Scheduling Problems (JSSP).
 
-- **[python-lekin](https://github.com/topic/job-shop-scheduling)** [![GitHub stars](https://img.shields.io/github/stars/taspinar/job-shop-scheduling-problem?style=social&color=white)](https://github.com/taspinar/job-shop-scheduling-problem/stargazers)  
+- **[python-lekin](https://github.com/topic/job-shop-scheduling)** [![GitHub_Stars](https://img.shields.io/github/stars/taspinar/job-shop-scheduling-problem?style=social&color=white)](https://github.com/taspinar/job-shop-scheduling-problem/stargazers)  
   Academic and open Python libraries focused on flexible job-shop scheduling research, dispatching rules, and sequencing heuristics.
 
 ---
